@@ -20,4 +20,5 @@ Country Website
 My Layout
 -------------------------------------------
 
-Pages: Home - 
+Pages: Home - Sightseeing - Culture - Credits
+
