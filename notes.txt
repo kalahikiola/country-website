@@ -1,0 +1,23 @@
+Country Website
+-------------------------------------------
+
+- fictional location
+- use images/videos under creative commons
+- four html webpages (3 abt location, 1 for credit)
+- Requirements:
+    - one table
+    - two images
+    - one audio/video element
+    - one blockquote element
+    - one contact from
+    - site nav on all pages with links to other pages
+    - meta tag for SEO description on each pages
+    - use CSS Grid at least once
+    - use CSS Flexbox at least once
+    - at least one custom font
+- favicon on each page
+
+My Layout
+-------------------------------------------
+
+Pages: Home - 

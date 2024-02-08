@@ -99,3 +99,8 @@ node_modules/
 *.swp
 *.vi
 *~
+
+# Specific Files #
+##################
+
+notes.txt
