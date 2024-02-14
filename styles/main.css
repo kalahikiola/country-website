@@ -25,6 +25,7 @@ h6 {
 h2 {
     display: block;
     text-align: center;
+    font-size: 1.25rem;
 }
 
 h3 {
@@ -33,7 +34,15 @@ h3 {
 
 p {
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
+}
+
+@media (min-width: 50rem) {
+
+    p {
+        font-size: 1.2rem;
+    }
+
 }
 
 
@@ -150,4 +159,12 @@ main {
 .site-footer p {
     margin: 0 auto;
     color: #fcd683;
+}
+
+@media (min-width: 50rem) {
+
+    .site-footer {
+        padding: 1.25rem 0;
+    }
+
 }

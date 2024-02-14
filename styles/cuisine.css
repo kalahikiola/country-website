@@ -1,0 +1,17 @@
+/* Cuisine
+---------------------------- */
+
+/* main
+---------------------------- */
+
+.food-articles {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+.food-articles article {
+    margin: 0 auto;
+}
