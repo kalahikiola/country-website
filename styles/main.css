@@ -60,7 +60,8 @@ a:hover,
 a:active {
 	color: #f1cd53;
     text-decoration: none;
-    border-style: none;
+    outline: none;
+    border: none;
 }
 
 a:focus {
