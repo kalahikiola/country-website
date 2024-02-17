@@ -58,12 +58,18 @@ a,
 a:visited,
 a:hover,
 a:active {
-	color: #fcd683;
+	color: #f1cd53;
     text-decoration: none;
+    border-style: none;
 }
 
 a:focus {
-	
+	color: #ffffff;
+    background-color: #181818;
+    border-style: solid;
+    border-color: #f1cd53;
+    border-radius: 1rem;
+    outline: none;
 }
 
 
@@ -91,6 +97,16 @@ a:focus {
     justify-content: space-between;
     line-height: 0.8;
     border-bottom: .25rem solid #585858;
+    position: sticky;
+    top: 0;
+}
+
+@media (min-width: 43.75rem) {
+
+    .site-header {
+        position: relative;
+    }
+    
 }
 
 .logo {
@@ -158,7 +174,7 @@ main {
 
 .site-footer p {
     margin: 0 auto;
-    color: #fcd683;
+    color: #f1cd53;
 }
 
 @media (min-width: 43.75rem) {
