@@ -4,14 +4,85 @@
 /* main
 ---------------------------- */
 
+
+/* Section - food-articles
+---------------------------- */
 .food-articles {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    justify-content: center;
-    align-content: center;
-    gap: 1rem;
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: center;
+    align-content: center; */
+    /* gap: 1rem;*/
 }
 
 .food-articles article {
+    margin: 0.75rem auto;
+    display: block;
+    width: 16rem;
+    height: 18rem;
+    align-items: center;
+    background-color: #242424;
+    padding: 0.75rem;
+    border-radius: 2rem;
+}
+
+.food-articles article img {
     margin: 0 auto;
+    display: block;
+}
+
+@media (min-width: 43.75rem) {
+
+    .food-articles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 1rem auto;
+        max-width: 57.5rem;
+    }
+
+    .food-articles article {
+        margin: 1rem;
+    }
+
+}
+
+/* Section - food-review
+---------------------------- */
+
+.food-review {
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.food-review blockquote {
+    margin: 0 auto;
+    max-width: 16rem;
+    padding-bottom: 1rem;
+}
+
+.food-review blockquote p {
+    background-color: #b1997b;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+}
+
+@media (min-width: 43.75rem) {
+
+    .food-review blockquote {
+        max-width: 32rem;
+    }
+
+    .food-review blockquote p {
+        background-color: #b1997b;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    cite {
+        font-size: 1.25rem;
+    }
+
 }

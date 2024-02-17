@@ -37,7 +37,7 @@ p {
     font-size: 1rem;
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 43.75rem) {
 
     p {
         font-size: 1.2rem;
@@ -117,7 +117,7 @@ a:focus {
     display: inline-block;
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 43.75rem) {
 
     .logo {
         font-size: 2.5rem;
@@ -161,7 +161,7 @@ main {
     color: #fcd683;
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 43.75rem) {
 
     .site-footer {
         padding: 1.25rem 0;
