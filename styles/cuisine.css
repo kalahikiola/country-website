@@ -16,7 +16,7 @@
 }
 
 .food-articles article {
-    margin: 0.75rem auto;
+    margin: 1.5rem auto;
     display: block;
     width: 16rem;
     height: 18rem;
@@ -52,7 +52,7 @@
 
 .food-review {
     align-items: center;
-    margin-top: 2rem;
+    margin: 2.5rem;
 }
 
 .food-review blockquote {
