@@ -58,7 +58,7 @@ a,
 a:visited,
 a:hover,
 a:active {
-	color: #f1cd53;
+	color: #ffb643;
     text-decoration: none;
     outline: none;
     border: none;
@@ -68,7 +68,7 @@ a:focus {
 	color: #ffffff;
     background-color: #181818;
     border-style: solid;
-    border-color: #f1cd53;
+    border-color: #ffb643;
     border-radius: 1rem;
     outline: none;
 }
@@ -110,7 +110,7 @@ a:focus {
 /* Header
 --------------------------------------------- */
 .site-header {
-    background-color: #383838;
+    background-color: #333333;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -164,11 +164,10 @@ a:focus {
 @media (min-width: 43.75rem) {
 
     .logo {
-        font-size: 2.5rem;
         display: inline-block;
-        padding: 1rem;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-weight: 700;
+        height: 2.875rem;
+        width: 2.875rem;
+        margin: 0.5rem;
     }
 
     .site-nav {
@@ -193,7 +192,7 @@ main {
 --------------------------------------------- */
 
 .site-footer {
-    background-color: #383838;
+    background-color: #333333;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -202,7 +201,7 @@ main {
 
 .site-footer p {
     margin: 0 auto;
-    color: #f1cd53;
+    color: #ffb643;
 }
 
 @media (min-width: 43.75rem) {
