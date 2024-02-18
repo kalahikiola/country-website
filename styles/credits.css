@@ -1,0 +1,18 @@
+.credits-table {
+    margin: 20% auto;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 75rem;
+}
+
+.credits-table th,
+.credits-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.credits-table th {
+    background-color: #555454;
+    font-weight: bold;
+}
