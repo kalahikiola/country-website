@@ -1,0 +1,59 @@
+/* Locations Section
+------------------------- */
+
+.location-articles {
+    display: grid;
+    grid-template-rows: repeat(1, auto);
+    justify-content: center;
+    align-content: center;
+    gap: 0.75rem;
+    padding-top: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.location-articles article {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.location-articles article h1 {
+    background-color: #743b3b;
+    padding-bottom: 0.25rem;
+    margin-bottom: 0;
+}
+
+.location-articles article img {
+    margin: 0 auto;
+    display: block;
+}
+
+.location-articles article p {
+    max-width: 18.75rem;
+}
+
+@media (min-width: 60.625rem) {
+
+    .title-image {
+        float: left;
+        margin-right: 2rem;
+    }
+
+    .location-articles {
+        margin-bottom: 2.5rem;
+    }
+
+    .location-articles article {
+        margin-bottom: 1.75rem;
+    }
+
+    .location-articles article p {
+        display: inline-block;
+        text-align: left;
+        margin-top: 3.8125rem;
+        max-width: 36rem;
+    }
+
+}
